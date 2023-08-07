@@ -1,0 +1,84 @@
+.main{
+    background-color: black; height: 100vh; width: 100vw
+}
+.dialogBox{
+background-color: #fff;
+height: 65%;
+width: 30%;
+margin: auto;
+position: absolute;
+top: 10%;
+left: 30%;
+padding: 75px 75px 75px 75px;
+}
+.header{
+    display: grid; grid-template-columns: 1fr 0.8fr 1fr; grid-gap: 20px;
+}
+.line{
+    height: 0px; margin-top: 8px; border: 1px solid gray;
+}
+.headerText{
+    color: green; font-size: large;
+}
+.Box{
+    display: grid; grid-template-columns: 1fr 10fr  5fr;
+}
+.boxHeader{
+    width: 100%;
+}
+.boxTopMargin{
+    margin-top: 10px;
+}
+.boxRight{
+    text-align: right; margin-top: 20px; margin-right: 10px
+}
+.selectionButton{
+     border-radius: 100%; margin-left: 10px; margin-top: 25px; height: 10px; width: 1%
+}
+.selectButtons{
+    margin-left: 20px;margin-top: 10px;
+}
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 20px;
+} 
+.grid-child-left{
+    color: green; width: 150px;
+    float: left;
+    width: 70%;
+     
+}
+.grid-child-right{
+    text-align: right;  margin-left: 70px; width: 150px;
+    float: right;
+    width: 70%;
+}
+
+.box{
+    margin-top: 10px;
+    height: 65px;
+    width:  100%;
+    border: 2px solid lightgray;
+    overflow: hidden;
+}
+.box:hover{
+    height: 160px;
+    background-color: #b9f6ca;
+    border: 2px solid green;
+
+    
+}
+.box:hover button{
+    background-color: green;
+}
+th{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.addCart{
+    margin-top:20px;height: 30px;width: 100%;background-color:#1b5e20;color: aliceblue;
+}
+.bottomText{
+    margin-top: 10px;font-size: small;text-align: right;
+}
